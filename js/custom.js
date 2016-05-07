@@ -4,9 +4,9 @@
 var customScripts = {
     profile: function () {
      	 var portfolio = $('#portfolio');
-		var items = $('.items', portfolio); 
-		var filters = $('.filters li a', portfolio); 
-	
+		var items = $('.items', portfolio);
+		var filters = $('.filters li a', portfolio);
+
 		items.imagesLoaded(function() {
 			items.isotope({
 				itemSelector: '.item',
@@ -14,7 +14,7 @@ var customScripts = {
 				transitionDuration: '0.7s'
 			});
 		});
-		
+
 		filters.click(function(){
 			var el = $(this);
 			filters.removeClass('active');
@@ -22,7 +22,7 @@ var customScripts = {
 			var selector = el.attr('data-filter');
 			items.isotope({ filter: selector });
 			return false;
-		});            
+		});
     },
     fancybox: function () {
         // fancybox
@@ -47,7 +47,7 @@ var customScripts = {
 				}else{
 						$('.header').removeClass('addBg');
 				}
-				
+
             },
             scrollChange: function ($currentListItem) {
                 //I get fired when you enter a section and I pass the list item of the section
@@ -58,16 +58,16 @@ var customScripts = {
 				}
 			}
         });
-		
+
 		$("a[href='#top']").click(function () {
                 $("html, body").animate({ scrollTop: 0 }, "slow");
                 return false;
             });
 			$("a[href='#basics']").click(function () {
-                $("html, body").animate({ scrollTop: $('#services').offset().top - 75 }, "slow"); 
+                $("html, body").animate({ scrollTop: $('#services').offset().top - 75 }, "slow");
                 return false;
             });
-    }, 
+    },
     owlSlider: function () {
         var owl = $("#owl-demo");
         owl.owlCarousel();
@@ -89,19 +89,19 @@ var customScripts = {
     },
 	waySlide: function(){
 		  	/* Waypoints Animations
-		   ------------------------------------------------------ */		   			  
-		 
-			 						 
+		   ------------------------------------------------------ */
+
+
 		},
-		fitText: function(){			  
-				setTimeout(function() {			
-				$('h1.responsive-headline').fitText(1.2, { minFontSize: '16px', maxFontSize: '30px' });			
+		fitText: function(){
+				setTimeout(function() {
+				$('h1.responsive-headline').fitText(1.2, { minFontSize: '16px', maxFontSize: '30px' });
 				}, 100);
 		},
     init: function () {
         customScripts.onePageNav();
         customScripts.profile();
-        customScripts.fancybox(); 
+        customScripts.fancybox();
         customScripts.owlSlider();
 		customScripts.waySlide();
 		customScripts.fitText();
@@ -118,12 +118,13 @@ $('document').ready(function () {
 
    // main directions
    map = new GMaps({
-      el: '#map', lat: 14.553533, lng: 121.052124, zoom: 14, zoomControl : true,
+
+      el: '#map', lat: 38.7161168, lng: -9.1671869, zoom: 17, zoomControl : true,
       zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
    });
 
    // add address markers
-   map.addMarker({ lat: 14.552891, lng: 121.051815, title: 'WebThemez',
+   map.addMarker({ lat: 38.7162455, lng: -9.166806, title: 'Aldente',
    infoWindow: { content: '<p>WebThemez</p>' } });
 
     $('#main-slider').flexslider({
@@ -141,28 +142,28 @@ $('document').ready(function () {
         animationSpeed      : 600,               //Integer: Set the speed of animations, in milliseconds
         initDelay           : 0,                 //{NEW} Integer: Set an initialization delay, in milliseconds
         randomize           : false,             //Boolean: Randomize slide order
-         
+
         // Usability features
         pauseOnAction       : true,              //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
         pauseOnHover        : false,             //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
         useCSS              : true,              //{NEW} Boolean: Slider will use CSS3 transitions if available
         touch               : true,              //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
         video               : false,             //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches
-         
+
         // Primary Controls
         controlNav          : true,              //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
         directionNav        : true,              //Boolean: Create navigation for previous/next navigation? (true/false)
-        prevText            : "Previous",        //String: Set the text for the "previous" directionNav item
-        nextText            : "Next",            //String: Set the text for the "next" directionNav item
-         
+        prevText            : "Anterior",        //String: Set the text for the "previous" directionNav item
+        nextText            : "Seguinte",            //String: Set the text for the "next" directionNav item
+
         // Secondary Navigation
-        keyboard            : true,              //Boolean: Allow slider navigating via keyboard left/right keys
+        keyboard            : false,              //Boolean: Allow slider navigating via keyboard left/right keys
         multipleKeyboard    : false,             //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
         mousewheel          : false,             //{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
         pausePlay           : false,             //Boolean: Create pause/play dynamic element
-        pauseText           : 'Pause',           //String: Set the text for the "pause" pausePlay item
-        playText            : 'Play',            //String: Set the text for the "play" pausePlay item
-         
+        pauseText           : 'Pausa',           //String: Set the text for the "pause" pausePlay item
+        playText            : 'Continuar',            //String: Set the text for the "play" pausePlay item
+
         // Special properties
         controlsContainer   : "",                //{UPDATED} Selector: USE CLASS SELECTOR. Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be ".flexslider-container". Property is ignored if given element is not found.
         manualControls      : "",                //Selector: Declare custom control navigation. Examples would be ".flex-control-nav li" or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.
