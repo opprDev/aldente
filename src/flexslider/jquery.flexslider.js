@@ -107,11 +107,7 @@
           slider.controlNav = slider.manualControls;
         } else {
           var controlNavScaffold = $('<ol class="flex-control-nav"></ol>');
-          var j = 1;
-          for (var i = 0; i < slider.count; i++) {
-            controlNavScaffold.append('<li><a>' + j + '</a></li>');
-            j++;
-          }
+          
 
           if (slider.containerExists) {
             $(slider.controlsContainer).append(controlNavScaffold);

@@ -182,7 +182,7 @@ a {
 	transition: all 0.2s linear;
 }
 a:hover {
-	color:#E90E6C;
+	color:#f1c40f;
 	text-decoration: none;
 }
 .btn {
@@ -208,6 +208,7 @@ border-top: 1px solid #1D1D1D;
 background: #F39D17;
 }
 #top {
+	color: #F39D17;
 	position: relative;
 }
 .topHome {
@@ -217,7 +218,7 @@ background: #F39D17;
 	z-index: 5;
 }
 .topHome:hover{
-color:#F89F9F;	
+color:#F39D17;	
 	}
 .navbar-inverse .navbar-nav > .active {
 background: #895100;
@@ -231,21 +232,37 @@ left:0px;
 .flex-direction-nav .flex-next{ 
 right:0px;
 }
-.flex-caption {
-zoom: 1;
-bottom: 35px;
-background-color: #000;z
-color: #171717;
-margin: 0;
-padding: 25px 25px 25px 30px;
-position: absolute;
-left: 0px;
-right: 0px; 
-bottom: 0px; 
-border-left: 0;
-border-right: 0px;}
-.flex-caption h3 {color: #fff; font-weight:bold; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase; text-align:center;}
-.flex-caption p {color: #fff; font-weight:bold; font-size:18px !important; margin: 0 0 15px; text-align:center;}	
+.flex-caption-header {
+	zoom: 1;
+	bottom: 35px;
+	background-color: #000;
+	color: #171717;
+	margin: 0;
+	padding: 25px 25px 25px 30px;
+	position: absolute;
+	left: 0px;
+	right: 0px; 
+	bottom: 0px; 
+	border-left: 0;
+	border-right: 0px;
+	display: list-item;
+}
+.flex-caption-header h3 {
+	color: #fff;
+	font-weight:bold;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+	text-transform: uppercase;
+	text-align:center;
+}
+.flex-caption-header p {
+	color: #fff;
+	font-weight:bold;
+	font-size:18px !important;
+	margin: 0 0 15px;
+	text-align:center;
+}
+
 /* Header 
 ----------------------------------------------*/
 #section-top {
@@ -273,12 +290,12 @@ border-right: 0px;}
 }
 .header {
 	position: fixed;
-width: 100%;
-z-index: 100;
-border-radius: 0;
-top: 0px;
-background: rgb(5, 5, 5);
-border-bottom: 10px solid #F39D17;
+	width: 100%;
+	z-index: 100;
+	border-radius: 0;
+	top: 0px;
+	background: rgb(5, 5, 5);
+	border-bottom: 10px solid #F39D17;
 }
 .addBg {
 	background: rgba(5, 5, 5, 0.94);
@@ -1227,7 +1244,7 @@ color: #fff;
 line-height: 28px;
 text-align: center;
 }
-.flex-caption{
+.flex-caption-header {
 display:none;
 }
 .banner-container {
