@@ -310,10 +310,6 @@ right:0px;
 .navbar-inverse .navbar-toggle {
 	background-color: #F39D17;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #F39D17;*/
-;
-}
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background: #F39D17;
 }
@@ -402,6 +398,8 @@ right:0px;
 	font-style: normal;
 }
 .logo {
+	position: fixed;
+    top: -10px;
 	font-size: 2.2em;
 	text-shadow: none;
 	margin: 8px 0 0 0;
@@ -1223,9 +1221,6 @@ padding:45px 0;
 	padding: 9px 12px !important;
 	font-size: 14px; 
 	margin: 0px;
-}
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: #A8A8A8;
 }
 .row .area1, .row .area2 { 
 display: block;
