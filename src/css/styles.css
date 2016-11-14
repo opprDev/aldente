@@ -17,7 +17,7 @@ body {
 	color: #666666;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
-	background: #fff;
+	background: #000;
 	transition: all 0.3s linear;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;
@@ -25,12 +25,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #F39D17;
+	background: #000;
 }
 
 ::-moz-selection {
  color: #fff;
- background: #F39D17;
+ background: #000;
 }
 p {
 	color: #858585;
@@ -68,6 +68,7 @@ h6{
 }
 .listArrow li{
 background: url('../images/links-arrow.png') 0px 12px no-repeat;
+color: #fff;
 padding-left:15px;
 }
 .progress {
@@ -87,7 +88,7 @@ background: #9FDE32;
 display: inline-block;
 font-size: 18px;
 color: #fff;
-background: #F39D17;
+background: #000;
 margin-right: 20px;
 width: 220px;
 text-align: center;
@@ -116,7 +117,7 @@ overflow: hidden;
      transform:scale(1.25);
 }
 .pDark h3 {
-	color: #BEBEBE;
+	color: #fff;
 }
 .btn {
 	color:#fff;
@@ -208,7 +209,7 @@ border-top: 1px solid #1D1D1D;
 background: #F39D17;
 }
 #top {
-	color: #F39D17;
+	color: #000;
 	position: relative;
 }
 .topHome {
@@ -221,7 +222,7 @@ background: #F39D17;
 color:#F39D17;	
 	}
 .navbar-inverse .navbar-nav > .active {
-background: #895100;
+background: #222;
 }
 /*  Sliders
 ==================================== */
@@ -295,7 +296,7 @@ right:0px;
 	border-radius: 0;
 	top: 0px;
 	background: rgb(5, 5, 5);
-	border-bottom: 10px solid #F39D17;
+	border-bottom: 10px solid #000;
 }
 .addBg {
 	background: rgba(5, 5, 5, 0.94);
@@ -317,7 +318,7 @@ right:0px;
 	color: #fff;
 }
 .navbar-inverse .navbar-toggle:hover .icon-bar {
-	background: #fff;
+	background: #000;
 }
 .navbar-toggle {
 }
@@ -351,14 +352,14 @@ right:0px;
 	font-size: 45px;
 	padding: 10px 15px;
 	background: rgba(128, 180, 33, 0.80);
-	color: #FFFFFF;
+	color: #000;
 	text-shadow: none;
 	font-weight: bold;
 	display: inline-block;
 }
 .carousel-caption h3 {
 	font-size: 30px;
-	color: #1C4604;
+	color: #fff;
 	font-weight: bold;
 	text-shadow: #fff 1px 1px 1px;
 }
@@ -588,7 +589,7 @@ line-height: 50px;
 	margin: 15px 0 8px !important;
 }
 .sub-heading p {
-	color: #5A5A5A;
+	color: #000;
 }
 .heading {
 	padding: 3px 10px;
@@ -636,7 +637,7 @@ img, video, iframe, embed, object {
 	padding-top: 35px;
 	padding-bottom: 25px;
 	overflow: hidden;
-	background: #FFFFFF; 
+	background: #000; 
 border-top: 1px dashed rgba(163, 0, 70, 0.35);
 }
 #aboutUs .feature {
@@ -654,8 +655,9 @@ border-top: 1px dashed rgba(163, 0, 70, 0.35);
 #aboutUs h3 {
 	font: 22px; 
 	letter-spacing: 1px;
-	color: #222;
+	color: #858585;
 	margin-top:0px;
+	padding-top: 55px;
 }
 .dataTxt h4 {
 font-size: 24px; 
@@ -715,7 +717,7 @@ color:#000;
     padding-bottom: 34px;
 }
 .block-text {
-    background-color: #fff;
+    background-color: #000;
     border-radius: 5px;
     box-shadow: 0 3px 0 #2c2222;
     color: #626262;
@@ -825,11 +827,11 @@ border: 1px solid #fff;
 	margin: 2px;
 }
 #contactUs {
- background:#222; 
+ background:#000; 
 }
 #contactUs .btn {
 	border-radius: 0px !important;
-	background: #F39D17;
+	background: #000;
 }
 .descrition {
 	min-height: 90px;
@@ -862,11 +864,11 @@ border: 1px solid #fff;
 	font-size: 18px;
 }
 ul.plan.plan2.featured .plan-name {
-background: #F39D17;
+background: #000;
 }
 /* --Portfolio----- */
 #work {
-	background: #222;
+	background: #000;
 	color: #fff;
 }
 #work h2 {
@@ -967,7 +969,7 @@ nav#filter a {
 	text-decoration: none;
 }
 .current {
-	background: #F39D17;
+	background: #000;
 	color: #fff;
 } 
 .page-section.intro {
@@ -1132,7 +1134,7 @@ footer input.form-control{
 padding:85px 0;
 } 
 .heading h2 {
-color: #222;
+color: #fff;
 font-weight: bolder; 
 text-transform: uppercase;
 font-size: 50px;
