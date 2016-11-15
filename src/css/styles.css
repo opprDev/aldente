@@ -309,13 +309,13 @@ right:0px;
 	background: transparent;
 }
 .navbar-inverse .navbar-toggle {
-	background-color: #F39D17;
+	background-color: #1d1d1d;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #F39D17;
+	background: #1d1d1d;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-	color: #fff;
+	color: #1d1d1d;
 }
 .navbar-inverse .navbar-toggle:hover .icon-bar {
 	background: #1d1d1d;
@@ -901,7 +901,7 @@ margin: 0px;
 }
 #portfolio .filters li a.active {
 	color: #fff !important;
-background: #F39D17; 
+background: #1d1d1d; 
 }
 #portfolio .items {
 	margin-bottom: 0
