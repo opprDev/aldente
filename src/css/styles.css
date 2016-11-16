@@ -33,6 +33,7 @@ body {
  background: #1d1d1d;
 }
 p {
+	text-align: justify;
 	color: #858585;
 	margin: 0 0 1em !important;
 }
@@ -44,6 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 	vertical-align: middle;
 	display: inline-block;
 }
+
+.text-justify{
+	text-align:justify;
+}
+
 .animated {
 	/* -webkit-animation-duration: 1s; */
 	animation-duration: 1s;
