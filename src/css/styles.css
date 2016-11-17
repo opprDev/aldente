@@ -644,7 +644,7 @@ img, video, iframe, embed, object {
 	padding-bottom: 25px;
 	overflow: hidden;
 	background: #1d1d1d; 
-border-top: 1px dashed rgba(163, 0, 70, 0.35);
+	/*border-top: 1px dashed rgba(163, 0, 70, 0.35);*/
 }
 #aboutUs .feature {
 	margin-top: 30px;
