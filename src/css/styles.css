@@ -271,9 +271,8 @@ right:0px;
 }
 
 .vcenter {
-
+	display: table-cell;
     vertical-align: middle;
-
 }
 
 /* Header 
@@ -503,16 +502,15 @@ background-color: #1d1d1d;
 	/*background: url("../images/banner-bg.jpg") no-repeat;*/
 	background-size: 100% 100%;
 	background-size: cover;
-	position: relative;  
 }
 .banner-container:before {
-position: absolute;
-width: 100%; 
-z-index: 1; 
-content: '';
-height: inherit;
-top: 75px;
-bottom: 0px;
+	position: absolute;
+	width: 100%; 
+	z-index: 1; 
+	content: '';
+	height: inherit;
+	top: 75px;
+	bottom: 0px;
 }
 .banner-container > img {
 	width: 100%;
