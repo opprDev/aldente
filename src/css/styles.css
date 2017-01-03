@@ -1141,7 +1141,7 @@ footer input.form-control{
 	margin-bottom:10px;
 }
 #services, #aboutUs, #work, #plans, #contactUs{
-padding:85px 0;
+	padding: 10px 0;
 } 
 .heading h2 {
 color: #fff;
