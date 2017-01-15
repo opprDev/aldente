@@ -82,7 +82,7 @@ height: 6px;
 border-radius:0px;
 }
 .progress .progress-bar.progress-bar-red {
-background: #F39D17;
+background: #FFF;
 }
 .progress .progress-bar.progress-bar-green {
 background: #51D4B6;
@@ -127,7 +127,7 @@ overflow: hidden;
 }
 .btn {
 	color:#fff;
-	background: #F39D17;
+	background: #FFF;
 }
 .btn:hover {
 	 color:#fff !important;
@@ -197,7 +197,7 @@ a:hover {
 	border-radius: 0px;
 }
 .btn-primary {
-	background: #F39D17;
+	background: #FFF;
 }
 .form-control {
 	border-radius: 0px;
@@ -212,7 +212,7 @@ padding: 20px 0;
 border-top: 1px solid #1D1D1D;
 }
 #home{
-background: #F39D17;
+background: #FFF;
 }
 #top {
 	color: #1d1d1d;
@@ -225,7 +225,7 @@ background: #F39D17;
 	z-index: 5;
 }
 .topHome:hover{
-color:#F39D17;	
+	color:#FFF;	
 	}
 .navbar-inverse .navbar-nav > .active {
 background: #222;
@@ -348,7 +348,7 @@ right:0px;
 /*.carousel-inner*/
 #myCarousel {
 	margin-top: 50px;
-	border-bottom: 4px solid #F39D17;
+	border-bottom: 4px solid #FFF;
 }
 .carousel-inner > .item {
 }
@@ -375,7 +375,7 @@ right:0px;
 }
 .actionPanel {
 	padding: 25px 0;
-	background: #F39D17;
+	background: #FFF;
 }
 .actionPanel h3 {
 	margin: 0px;
@@ -385,7 +385,7 @@ right:0px;
 	width: 90px;
 	height:110px;
 	border-radius: 0px;
-	color: #F39D17;
+	color: #FFF;
 	line-height: 90px !important;
 }
 #section-strapline {
@@ -400,7 +400,7 @@ right:0px;
 	height: 50px;/*color:#a30046;*/
 }
 .navbar-brand b {
-	color: #F39D17;
+	color: #FFF;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 900;
 }
@@ -474,7 +474,7 @@ right:0px;
 	font-weight: 200;
 }
 .page-section h2 {
-	color: #F39D17;
+	color: #FFF;
 }
 .page-section p {
 	font-size: 15px;
@@ -484,7 +484,6 @@ right:0px;
 	background: #1d1d1d;
 }
 .darkBg .fa {
-	color: #F39D17;
 }
 #map {
 display: block;
@@ -634,7 +633,7 @@ line-height: 50px;
 	margin: 3px;
 	cursor: pointer;
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);
-	border: 2px solid #F39D17;
+	border: 2px solid #FFF;
 }
 img, video, iframe, embed, object {
 	max-width: 100%;
@@ -722,7 +721,7 @@ color:#1d1d1d;
 .carousel-control.left {left:-25px;}
 .carousel-control.right {right:-25px;}
 .broun-block {
-   background:#F39D17;
+   background:#FFF;
     padding-bottom: 34px;
 }
 .block-text {
@@ -974,7 +973,7 @@ nav#filter li {
 nav#filter a {
 	padding: 4px 12px;
 	line-height: 20px;
-	border: 1px solid #F39D17;
+	border: 1px solid #FFF;
 	text-decoration: none;
 }
 .current {
@@ -1068,7 +1067,7 @@ footer {
 .social a {
 	font-size: 32px;
 	margin: 0 10px;
-	color: #F39D17;
+	color: #FFF;
 }
 .contact ul li {
 	margin-bottom: 10px;
@@ -1421,7 +1420,7 @@ nav#filter li {
 }
 #clients {
 padding: 30px 0; 
-	background: #F39D17;
+	background: #FFF;
 }
 #clients .heading h2 {
 color: #fff;
@@ -1470,7 +1469,7 @@ color: #fff;
 	transform: scale(1.1);
 }
 .flat .plan.featured:hover li.plan-name, .flat .plan:hover li.plan-name, .flat .plan.featured.plan-name {
-	background: #F39D17 !important;
+	background: #FFF !important;
 }
 .customNavigation {
 	display: none;
