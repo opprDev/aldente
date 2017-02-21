@@ -313,9 +313,7 @@
               </div>
 
               <div class="col-xs-12 col-sm-6 col-lg-6">
-                <section id="map">
-                  <p class="map-error"> There is a map error.</p>
-               </section>
+                <div id="map"></div>
               </div>
 
               <div class="col-xs-12 col-sm-6 col-lg-6">
@@ -374,8 +372,34 @@
   <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
   <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
   <script src="js/jquery.nav.js" type="text/javascript"></script>
-  <script src="js/maps.js" type="text/javascript"></script>
-  <script src="js/gmaps.js"></script>
+  <!-- <script src="js/maps.js" type="text/javascript"></script>
+  <script src="js/gmaps.js"></script> -->
+  <script>
+      function initMap() {
+        // Styles a map in night mode.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 38.7160462, lng: -9.1668034},
+          zoom: 18,
+          styles: [
+                    {
+                      "featureType": "poi.business",
+                      "stylers": [
+                        {
+                          "visibility": "off"
+                        }
+                      ]
+                    }
+                  ]
+        });
+        var marker = new google.maps.Marker({
+          position: {lat: 38.7160462, lng: -9.1668034},
+          map: map,
+          title: 'Aldente'
+        });
+      }
+    </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtQm8gqvwPcbaxZCMDmbCNOjvuckoJGUs&callback=initMap"
+    async defer></script>
   <script src="js/jquery.fittext.js"></script>
   <script src="js/waypoints.js"></script>
   <script src="flexslider/jquery.flexslider.js"></script>
